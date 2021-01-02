@@ -1,9 +1,12 @@
-import { Wrapper, Icon } from '../../comps';
+import { Wrapper, Icon } from '../../../comps';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
-export default function Event() {
+export default function Esport() {
   return (
     <Wrapper>
+      <NextSeo title="Kompetisi E-Sport" />
       <h1 className="text-3xl text-blue-900 font-bold">Kompetisi E-Sport</h1>
       <div className="flex flex-col-reverse md:flex-row items-start relative">
         <div className="bg-white shadow-xl rounded-xl p-6 md:p-8 w-full md:w-3/5 mt-8 md:mt-0">
@@ -72,9 +75,16 @@ export default function Event() {
             <Icon className="text-gray-500" />
             <p className="text-gray-500 ml-2">Rp. 50.000,00</p>
           </div>
-          <button className="mt-8 w-full text-center py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300">
-            Daftar Sekarang
-          </button>
+          <div className="mt-8 w-full">
+            <Link href="/event/esport/register" passHref>
+              <a
+                href="/event/esport/register"
+                className="block w-full mt-8 text-center py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+              >
+                Daftar Sekarang!
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
     </Wrapper>

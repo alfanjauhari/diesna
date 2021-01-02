@@ -1,5 +1,6 @@
 import { DefaultSeo } from 'next-seo';
 import '../assets/app.css';
+import 'aos/dist/aos.css';
 
 export default function App({ Component, pageProps }) {
   return (

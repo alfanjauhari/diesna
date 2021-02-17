@@ -26,14 +26,14 @@ export default function Fotografi() {
             Detail Event
           </h2>
           <div className="prose mt-4">
-            <b>Salut Photo Enthusiast!</b>
+            <p className="font-bold">Salut Photo Enthusiast!</p>
             <p>
               Ada kabar gembira nih dari SMAN 1 KAUMAN ✨Bagi kalian yang suka
               ikut lomba photograpy tetapi terhalang oleh pandemi covid-19,
               SMANSAKA mengadakan lomba photograpy pada DIESNATALIS KE-31,
             </p>
             <p>Syarat dan ketentuan</p>
-            <b>A. PERATURAN UMUM</b>
+            <p className="font-bold text-lg">A. PERATURAN UMUM</p>
             <ol>
               <li>Keputusan panitia dan juri tidak dapat diganggu gugat.</li>
               <li>
@@ -45,7 +45,8 @@ export default function Fotografi() {
                 diskualifikasi.
               </li>
             </ol>
-            <b>B. PERATURAN KHUSUS I. PESERTA</b>
+            <p className="font-bold text-lg">B. PERATURAN KHUSUS</p>
+            <p className="font-semibold">I. PESERTA</p>
             <ol>
               <li>Merupakan siswa dan siswi SMAN 1 Kauman;</li>
               <li>

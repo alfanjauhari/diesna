@@ -26,14 +26,14 @@ export default function StoryTelling() {
             Detail Event
           </h2>
           <div className="prose mt-4">
-            <b>Hai Story Teller</b>
+            <p className="font-bold">Hai Story Teller</p>
             <p>
               SMANSAKA ada kabar gembira nih buat kalian yang hobi bercerita
               tetapi terhalang oleh pandemi covid-19. Kali ini SMANSAKA
               mengadakan DIESNATALIS ke-31 yang ada berbagai lomba di dalam nya,
               salah satunya yaitu Story Telling. YUK IKUTAN!!!{' '}
             </p>
-            <b>A. PERATURAN UMUM</b>
+            <p className="font-bold text-lg">A. PERATURAN UMUM</p>
             <ol>
               <li>Keputusan panitia dan juri tidak dapat diganggu gugat;</li>
               <li>
@@ -55,7 +55,8 @@ export default function StoryTelling() {
                 Peserta wajib mengikuti Instagram official @bosss.smansaka{' '}
               </li>
             </ol>
-            <b>B. PERATURAN KHUSUS I. PESERTA</b>
+            <p className="font-bold text-lg">B. PERATURAN KHUSUS</p>
+            <p className="font-semibold">I. PESERTA</p>
             <ol>
               <li>
                 Lomba Story Telling hanya di ikuti oleh Siswa dan Siswi SMAN 1
@@ -81,7 +82,7 @@ export default function StoryTelling() {
                 yang sopan;{' '}
               </li>
             </ol>
-            <b>II. PENGUMPULAN KARYA</b>
+            <p className="font-semibold">II. PENGUMPULAN KARYA</p>
             <ol>
               <li>
                 Pengumpulan video akan dilaksanakan selama 5 hari pada tanggal 5
@@ -102,20 +103,20 @@ export default function StoryTelling() {
                 sekolah.
               </li>
             </ol>
-            <b>III. SANKSI DAN PELANGGARAN</b>
+            <p className="font-semibold">III. SANKSI DAN PELANGGARAN</p>
             <p>
               Seluruh pelanggaran yang menyebabkan diskualifikasi akan dikenakan
               sanksi berupa denda sebesar Rp200.000,00 (dua ratus ribu rupiah).
               Jika tidak menjalankan prosedur yang telah ditentukan, peserta
               akan dikenai sanksi tambahan dari panitia.{' '}
             </p>
-            <b>IV. FORCE MAJEUR</b>
+            <p className="font-semibold">IV. FORCE MAJEUR</p>
             <p>
               Segala sesuatu yang terjadi di luar kehendak manusia, yaitu sakit,
               kecelakaan, meninggal, dan bencana alam. Panitia berhak menilai
               sepenuhnya pengguna alasan force majeur.{' '}
             </p>
-            <b>V. ATURAN TAMBAHAN</b>
+            <p className="font-semibold">V. ATURAN TAMBAHAN</p>
             <ol>
               <li>
                 Peraturan dapat berubah apabila terjadi force majeur dan atau

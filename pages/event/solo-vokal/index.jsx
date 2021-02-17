@@ -26,7 +26,7 @@ export default function SoloVokal() {
             Detail Event
           </h2>
           <div className="prose mt-4">
-            <b>Hello Singers!</b>
+            <p className="font-bold">Hello Singers!</p>
             <p>
               Untuk kalian siswa dan siswi SMANSAKA yang punya bakat atau hobi
               menyanyi, di Diesnatalis ke-31 SMANSAKA kali ini akan menyediakan
@@ -37,7 +37,7 @@ export default function SoloVokal() {
               Buat kalian yang tertarik mengikuti lomba ini,baca regulasi
               dibawah ini dulu yaa!
             </p>
-            <p className="mt-4 font-semibold">A. PERATURAN UMUM</p>
+            <p className="mt-4 font-bold text-lg">A. PERATURAN UMUM</p>
             <ol className="mt-4">
               <li>Keputusan panitia dan juri tidak dapat diganggu gugat;</li>
               <li>
@@ -60,7 +60,8 @@ export default function SoloVokal() {
                 Peserta wajib mengikuti Instagram Official @bosss.smansaka.
               </li>
             </ol>
-            <p className="mt-4 font-semibold">B. PERATURAN KHUSUS I. PESERTA</p>
+            <p className="mt-4 font-bold text-lg">B. PERATURAN KHUSUS</p>
+            <p className="font-semibold">I. PESERTA</p>
             <ol className="mt-4">
               <li>Merupakan siswa dan siswi SMAN 1 Kauman;</li>
               <li>

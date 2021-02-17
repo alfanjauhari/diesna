@@ -13,7 +13,7 @@ export default function Wrapper({ className, children }) {
       <main className={classNames}>{children}</main>
       <footer className="border-t p-6 flex flex-col md:flex-row justify-center text-center">
         <p>
-          Created with &#x2764; by{' '}
+          By{' '}
           <a href="https://alfan.my.id" className="text-blue-600">
             Alfan Jauhari
           </a>

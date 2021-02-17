@@ -25,45 +25,115 @@ export default function SoloVokal() {
           <h2 className="text-gray-900 font-bold text-2xl mb-4">
             Detail Event
           </h2>
-          <p className="text-gray-500 mt-4">
+          <div className="prose mt-4">
+            <b>Hello Singers!</b>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequatur ducimus iste ex deleniti voluptas ad iusto ab
-              temporibus? Obcaecati porro eos ipsam impedit libero. Dolores
-              ducimus illo nostrum voluptate id. Non tenetur libero accusamus
-              maxime labore ut facere, error aliquid molestias modi rerum
-              tempore sed, adipisci doloremque, aperiam eveniet? Distinctio
-              maiores rem repellendus aliquid ratione vel sit quod porro
-              veritatis.
-            </p>{' '}
-            <p className="mt-4">
-              A, est facilis alias sequi, cum doloribus consectetur debitis
-              saepe perspiciatis soluta quia veniam? Ipsum, aliquid tempore
-              voluptatum omnis, deleniti nostrum soluta iste veniam quasi magni
-              quam reprehenderit? Debitis, eveniet! Quos obcaecati officiis,
-              repudiandae ipsam dolorum delectus voluptatem pariatur adipisci
-              quis incidunt quas et aliquid architecto iste. Earum harum amet
-              blanditiis quidem repellendus, libero aut et labore deserunt,
-              quibusdam obcaecati? Nihil repudiandae et iure eum beatae, nisi
-              quo, placeat rem voluptatum obcaecati non commodi magnam est in
-              porro ipsum, nemo reprehenderit quia architecto aliquam nesciunt
-              blanditiis ipsam fuga eos.
+              Untuk kalian siswa dan siswi SMANSAKA yang punya bakat atau hobi
+              menyanyi, di Diesnatalis ke-31 SMANSAKA kali ini akan menyediakan
+              wadah untuk kalian yang ingin menyalurkan bakat kalian di bidang
+              tarik suara nih!
             </p>
             <p className="mt-4">
-              Nesciunt! Nostrum suscipit assumenda quod exercitationem minima
-              voluptatum nobis rerum ipsam qui debitis eius vitae harum
-              accusamus eveniet eos dolore tenetur, dolor vero velit culpa
-              explicabo hic praesentium maiores? Qui, reiciendis? At expedita
-              ad, assumenda, autem voluptatibus tenetur reiciendis alias
-              perspiciatis quisquam, vero placeat ut minus neque. Sequi,
-              aspernatur dolor sunt consequuntur delectus, porro facilis facere
-              modi labore nihil nam perspiciatis. Praesentium aperiam eligendi
-              beatae cumque ut consequatur repudiandae totam corrupti? Obcaecati
-              voluptatem alias velit id porro explicabo accusamus assumenda
-              animi quos nihil atque sequi, beatae incidunt quae? Laboriosam,
-              provident quidem.
+              Buat kalian yang tertarik mengikuti lomba ini,baca regulasi
+              dibawah ini dulu yaa!
             </p>
-          </p>
+            <p className="mt-4 font-semibold">A. PERATURAN UMUM</p>
+            <ol className="mt-4">
+              <li>Keputusan panitia dan juri tidak dapat diganggu gugat;</li>
+              <li>
+                Proses pelaksanaan dan pengambilan video lomba harus tetap
+                mematuhi standart protokol kesehatan yang telah ditetapkan untuk
+                menghindari penularan COVID-19;
+              </li>
+              <li>
+                Keterlambatan pengumpulan dapat berakibat pengurangan poin dan
+                diskualifikasi;
+              </li>
+              <li>
+                Peserta audisi Solo Vocal wajib mengumpulkan video berupa MP4
+                dan diunggah ke laman instagram pribadi atau instagram kelas;
+              </li>
+              <li>
+                Peserta diberi durasi maksimal 5 menit untuk menampilkan 1 lagu.
+              </li>
+              <li>
+                Peserta wajib mengikuti Instagram Official @bosss.smansaka.
+              </li>
+            </ol>
+            <p className="mt-4 font-semibold">B. PERATURAN KHUSUS I. PESERTA</p>
+            <ol className="mt-4">
+              <li>Merupakan siswa dan siswi SMAN 1 Kauman;</li>
+              <li>
+                Peserta merupakan siswa dan siswi kelas X dan XI. (Kelas XII
+                tidak diwajibkan ikut);
+              </li>
+              <li>
+                Peserta wajib mengisi formulir pendafataran melalui website yang
+                telah disediakan oleh panitia;
+              </li>
+              <li>
+                Peserta harus melengkapi syarat-syarat pendaftaran yang sudah
+                ditentukan panitia. Jika terjadi penguduran diri, maka biaya
+                pendaftaran tidak dapat dikembalikan;
+              </li>
+              <li>
+                Tidak diperkenankan menampilkan lagu yang mengandung unsur
+                pornoaksi, lirik kotor, dan SARA;
+              </li>
+              <li>Pemilihan genre lagu Bebas;</li>
+              <li>Peserta diperbolehkan menggunakan alat music tambahan;</li>
+              <li>
+                Peserta yang terlambat mengumpulkan file video akan mempengaruhi
+                penilaian;{' '}
+              </li>
+            </ol>
+            <p className="mt-4 font-semibold">II. PENGUMPULAN KARYA</p>
+            <ol className="mt-4">
+              <li>
+                Pengumpulan video akan dilaksanakan selama 5 hari pada tanggal 5
+                Maret – 10 Maret 2021;
+              </li>
+              <li>
+                Kriteria penilaian antara lain: 🔸️Performance 🔸️Improvisasi
+                🔸️Penjiwaan lagu 🔸️Gestur
+              </li>
+              <li>
+                Peserta wajib menggunakan kostum panggung dengan ketentuan:
+                📜Bebas, rapi, dan sopan (tidak boleh memakai sergam sekolah),
+                📜Tidak ada unsur sponsor.
+              </li>
+              <li>
+                Peserta yang akan diumumkan pada Instagram Official
+                @bosss.smansaka dan penyerahan penghargaan pada saat masuk
+                sekolah.{' '}
+              </li>
+            </ol>
+            <p className="mt-4 font-semibold">III. SANKSI DAN PELANGGARAN</p>
+            <p className="mt-4">
+              Seluruh pelanggaran yang menyebabkan diskualifikasi akan dikenakan
+              sanksi berupa denda sebesar Rp200.000,00 (dua ratus ribu rupiah).
+              Jika tidak menjalankan prosedur yang telah ditentukan, peserta
+              akan dikenai sanksi tambahan dari panitia.{' '}
+            </p>
+            <p className="mt-4 font-semibold">IV. FORCE MAJEUR</p>
+            <p className="mt-4">
+              Segala sesuatu yang terjadi di luar kehendak manusia, yaitu sakit,
+              kecelakaan, meninggal, dan bencana alam. Panitia berhak menilai
+              sepenuhnya pengguna alasan force majeur.
+            </p>
+            <p className="mt-4 font-semibold">V. ATURAN TAMBAHAN</p>
+            <ol className="mt-4">
+              <li>
+                Peraturan dapat berubah apabila terjadi force majeur dan atau
+                kebutuhan panitia. Perubahan peraturan hanya boleh dilakukan
+                oleh panitia dan akan disosialisasikan kepada peserta;
+              </li>
+              <li>
+                Tiap-tiap pasal dalam peraturan diatas diartikan menurut
+                persepsi panitia.
+              </li>
+            </ol>
+          </div>
         </div>
         <div className="flex w-full p-4 md:p-6">
           <a

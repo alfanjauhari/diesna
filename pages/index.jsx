@@ -18,14 +18,17 @@ export default function Home() {
               Dies Natalis SMANSAKA 2021
             </h1>
             <p className="text-gray-500 text-lg mt-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
-              odit voluptatem ex iusto debitis officia reiciendis blanditiis nam
-              dolorem deserunt alias, quidem cupiditate temporibus saepe ratione
-              velit perspiciatis facilis? Dolorem!
+              Tetap rasakan kemeriahan Dies Natalis SMA Negeri 1 Kauman yang ke
+              31 ditengah pandemi COVID-19 dengan berbasis online!
             </p>
-            <button className="mt-6 px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300">
-              Pelajari Selengkapnya!
-            </button>
+            <Link href="/tentang">
+                  <a
+                    href="/tentang"
+                    className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+                  >
+                    Pelajari Selengkapnya!
+                  </a>
+                </Link>
           </div>
           <HeroIllustration className="hidden md:block" />
         </section>

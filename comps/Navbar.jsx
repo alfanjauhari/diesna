@@ -68,7 +68,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="mt-4 mr-0 md:mr-6 md:mt-0">
-          <Link href="/about" passHref>
+          <Link href="/tentang" passHref>
             <a className="text-blue-600 hover:text-blue-800 duration-200">
               Tentang
             </a>

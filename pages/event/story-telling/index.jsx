@@ -25,45 +25,109 @@ export default function StoryTelling() {
           <h2 className="text-gray-900 font-bold text-2xl mb-4">
             Detail Event
           </h2>
-          <p className="text-gray-500 mt-4">
+          <div className="prose mt-4">
+            <b>Hai Story Teller</b>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequatur ducimus iste ex deleniti voluptas ad iusto ab
-              temporibus? Obcaecati porro eos ipsam impedit libero. Dolores
-              ducimus illo nostrum voluptate id. Non tenetur libero accusamus
-              maxime labore ut facere, error aliquid molestias modi rerum
-              tempore sed, adipisci doloremque, aperiam eveniet? Distinctio
-              maiores rem repellendus aliquid ratione vel sit quod porro
-              veritatis.
-            </p>{' '}
-            <p className="mt-4">
-              A, est facilis alias sequi, cum doloribus consectetur debitis
-              saepe perspiciatis soluta quia veniam? Ipsum, aliquid tempore
-              voluptatum omnis, deleniti nostrum soluta iste veniam quasi magni
-              quam reprehenderit? Debitis, eveniet! Quos obcaecati officiis,
-              repudiandae ipsam dolorum delectus voluptatem pariatur adipisci
-              quis incidunt quas et aliquid architecto iste. Earum harum amet
-              blanditiis quidem repellendus, libero aut et labore deserunt,
-              quibusdam obcaecati? Nihil repudiandae et iure eum beatae, nisi
-              quo, placeat rem voluptatum obcaecati non commodi magnam est in
-              porro ipsum, nemo reprehenderit quia architecto aliquam nesciunt
-              blanditiis ipsam fuga eos.
+              SMANSAKA ada kabar gembira nih buat kalian yang hobi bercerita
+              tetapi terhalang oleh pandemi covid-19. Kali ini SMANSAKA
+              mengadakan DIESNATALIS ke-31 yang ada berbagai lomba di dalam nya,
+              salah satunya yaitu Story Telling. YUK IKUTAN!!!{' '}
             </p>
-            <p className="mt-4">
-              Nesciunt! Nostrum suscipit assumenda quod exercitationem minima
-              voluptatum nobis rerum ipsam qui debitis eius vitae harum
-              accusamus eveniet eos dolore tenetur, dolor vero velit culpa
-              explicabo hic praesentium maiores? Qui, reiciendis? At expedita
-              ad, assumenda, autem voluptatibus tenetur reiciendis alias
-              perspiciatis quisquam, vero placeat ut minus neque. Sequi,
-              aspernatur dolor sunt consequuntur delectus, porro facilis facere
-              modi labore nihil nam perspiciatis. Praesentium aperiam eligendi
-              beatae cumque ut consequatur repudiandae totam corrupti? Obcaecati
-              voluptatem alias velit id porro explicabo accusamus assumenda
-              animi quos nihil atque sequi, beatae incidunt quae? Laboriosam,
-              provident quidem.
+            <b>A. PERATURAN UMUM</b>
+            <ol>
+              <li>Keputusan panitia dan juri tidak dapat diganggu gugat;</li>
+              <li>
+                Proses pelaksanaan dan pengambilan video lomba harus tetap
+                mematuhi standart protokol kesehatan yang telah ditetapkan untuk
+                menghindari penularan COVID-19;
+              </li>
+              <li>
+                Keterlambatan pengumpulan dapat berakibat pengurangan poin dan
+                diskualifikasi;
+              </li>
+              <li>
+                Peserta Lomba Story Telling wajib mengumpulkan 1 video berupa
+                MP4 dan diunggah ke laman instagram pribadi atau instagram
+                kelas;
+              </li>
+              <li>Peserta diberi durasi maksimal 5 menit.</li>
+              <li>
+                Peserta wajib mengikuti Instagram official @bosss.smansaka{' '}
+              </li>
+            </ol>
+            <b>B. PERATURAN KHUSUS I. PESERTA</b>
+            <ol>
+              <li>
+                Lomba Story Telling hanya di ikuti oleh Siswa dan Siswi SMAN 1
+                Kauman;
+              </li>
+              <li>
+                Peserta merupakan siswa dan siswi kelas X dan XI. (Kelas XII
+                tidak diwajibkan ikut);
+              </li>
+              <li>
+                Peserta wajib mengisi formulir pendafataran melalui website yang
+                telah disediakan oleh panitia;
+              </li>
+              <li>
+                Peserta harus melengkapi syarat-syarat pendaftaran yang sudah
+                ditentukan panitia. Jika terjadi penguduran diri, maka biaya
+                pendaftaran tidak dapat dikembalikan;
+              </li>
+              <li>Video tidak boleh mengandung SARA;</li>
+              <li>Peserta wajib menggunkan kata kata sopan;</li>
+              <li>
+                Peserta wajib memakai pakaian menarik tetapi tetap dalam keadaan
+                yang sopan;{' '}
+              </li>
+            </ol>
+            <b>II. PENGUMPULAN KARYA</b>
+            <ol>
+              <li>
+                Pengumpulan video akan dilaksanakan selama 5 hari pada tanggal 5
+                Maret – 10 Maret 2021;
+              </li>
+              <li>
+                Kriteria penilaian antara lain: 🔸️Performance 🔸️Improvisasi
+                🔸️Penjiwaan 🔸️Gestur
+              </li>
+              <li>
+                Peserta wajib menggunakan kostum panggung dengan ketentuan:
+                📜Bebas, rapi, dan sopan (tidak boleh memakai sergam sekolah),
+                📜Tidak ada unsur sponsor.
+              </li>
+              <li>
+                Peserta yang menang akan diumumkan pada Instagram Official
+                @bosss.smansaka dan penyerahan penghargaan pada saat masuk
+                sekolah.
+              </li>
+            </ol>
+            <b>III. SANKSI DAN PELANGGARAN</b>
+            <p>
+              Seluruh pelanggaran yang menyebabkan diskualifikasi akan dikenakan
+              sanksi berupa denda sebesar Rp200.000,00 (dua ratus ribu rupiah).
+              Jika tidak menjalankan prosedur yang telah ditentukan, peserta
+              akan dikenai sanksi tambahan dari panitia.{' '}
             </p>
-          </p>
+            <b>IV. FORCE MAJEUR</b>
+            <p>
+              Segala sesuatu yang terjadi di luar kehendak manusia, yaitu sakit,
+              kecelakaan, meninggal, dan bencana alam. Panitia berhak menilai
+              sepenuhnya pengguna alasan force majeur.{' '}
+            </p>
+            <b>V. ATURAN TAMBAHAN</b>
+            <ol>
+              <li>
+                Peraturan dapat berubah apabila terjadi force majeur dan atau
+                kebutuhan panitia. Perubahan peraturan hanya boleh dilakukan
+                oleh panitia dan akan disosialisasikan kepada peserta;
+              </li>
+              <li>
+                Tiap-tiap pasal dalam peraturan diatas diartikan menurut
+                persepsi panitia.
+              </li>
+            </ol>
+          </div>
         </div>
         <div className="flex w-full p-4 md:p-6">
           <a

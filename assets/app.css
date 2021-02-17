@@ -5,3 +5,11 @@
 #__next {
   @apply flex flex-col min-h-screen;
 }
+
+.prose {
+  max-width: 100%;
+}
+
+.prose a {
+  @apply text-blue-600 !important;
+}

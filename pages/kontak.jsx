@@ -39,18 +39,18 @@ export default function Contact() {
                       <tr>
                         <td class="px-6 py-4 whitespace-nowrap">
                           <div class="text-sm font-medium text-gray-900">
-                            Yusril Ade Erwansyah
+                            Najla
                           </div>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">
-                          <div class="text-sm text-gray-900">Seksi Humas</div>
+                          <div class="text-sm text-gray-900">Seksi Acara</div>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
-                            href="https://wa.me/6285755333561"
+                            href="https://wa.me/628561735128"
                             className="font-semibold text-blue-600"
                           >
-                            +62 857-5533-3561
+                            +62 856-1735-128
                           </a>
                         </td>
                       </tr>

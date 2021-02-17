@@ -50,7 +50,7 @@ export default function StoryTelling() {
                 MP4 dan diunggah ke laman instagram pribadi atau instagram
                 kelas;
               </li>
-              <li>Peserta diberi durasi maksimal 5 menit.</li>
+              <li>Peserta diberi durasi maksimal 10 menit.</li>
               <li>
                 Peserta wajib mengikuti Instagram official @bosss.smansaka{' '}
               </li>

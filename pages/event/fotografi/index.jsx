@@ -76,20 +76,24 @@ export default function Fotografi() {
                 pornoaksi, lirik kotor, dan SARA;
               </li>
               <li>
-                Peserta yang terlambat mengumpulkan file video akan mempengaruhi
+                Peserta yang terlambat mengumpulkan file foto akan mempengaruhi
                 penilaian;
               </li>
             </ol>
             <b>II. PENGUMPULAN KARYA</b>
             <ol>
               <li>
-                Pengumpulan video akan dilaksanakan selama 5 hari pada tanggal 5
+                Pengumpulan foto akan dilaksanakan selama 5 hari pada tanggal 5
                 Maret – 10 Maret 2021;
               </li>
               <li>
-                Kriteria penilaian • Kesesuaian dengan tema ( 25 poin ) • Nilai
-                esai ( 25 poin ) • Orisinalitas karya ( 10 poin ) • Komposisi
-                foto ( 25 poin ) • Keunikan karya ( 15 poin )
+                <p className="font-semibold text-sm">Kriteria Penilaian</p>
+                <ul>
+                  <li>Kesesuain dengan tema (25 poin)</li>
+                  <li>Nilai Esai (25 poin)</li>
+                  <li>Komposisi foto (25 poin)</li>
+                  <li>Keunikan karya (25 poin)</li>
+                </ul>
               </li>
               <li>
                 Peserta yang mendapatkan juara akan diumumkan pada Instagram

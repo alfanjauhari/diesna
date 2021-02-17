@@ -152,7 +152,7 @@ export default function Home() {
                 Lomba ini cocok untuk kamu yang memiliki bakat bernyanyi atau
                 suka untuk bernyanyi dimanapun dan kapanpun namun tidak memiliki
                 tempat atau wadah yang cocok untuk menampung bakat kamu. Di sini
-                kamu akan bernyanyi satu lagu wajib dan satu lagu pilihan kamu.
+                kamu akan bernyanyi satu lagu favorit pilihanmu.
                 <br />
                 <br />
                 Di perlombaan ini kriteria penilaian bukan hanya dari bagus atau

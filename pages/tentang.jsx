@@ -41,38 +41,9 @@ export default function About() {
               <a href="http://diesna.vercel.app">http://diesna.vercel.app</a>{' '}
               🔸️{' '}
             </p>
-            <p>LINK FORMULIR PENDAFTARAN LOMBA : </p>
-            <p>
-              PUBG :{' '}
-              <a href="https://forms.gle/vLPVkrQxB72pHEdF8">
-                https://forms.gle/vLPVkrQxB72pHEdF8
-              </a>{' '}
-            </p>
-            <p>
-              Mobile Legends :{' '}
-              <a href="https://forms.gle/2nxKmcgemmJxbb8t7">
-                https://forms.gle/2nxKmcgemmJxbb8t7
-              </a>{' '}
-            </p>
-            <p>
-              Fotografi :{' '}
-              <a href="https://forms.gle/L34n22ufmR5HKSk39">
-                https://forms.gle/L34n22ufmR5HKSk39
-              </a>{' '}
-            </p>
-            <p>
-              Solo Vocal :{' '}
-              <a href="https://forms.gle/fn9iykQNeSkyaSzm6">
-                https://forms.gle/fn9iykQNeSkyaSzm6
-              </a>{' '}
-            </p>
-            <p>
-              Story Telling :{' '}
-              <a href="https://forms.gle/azbBoxMCFhpzHDUV8">
-                https://forms.gle/azbBoxMCFhpzHDUV8
-              </a>{' '}
-            </p>
-            <p>Cp : +62 813-2434-9473 (Dharmawan) +62 856-1735-128 (Najla)</p>
+            <p className="font-semibold">Contact Person :</p>
+            <p>+62 813-2434-9473 (Dharmawan)</p>
+            <p>+62 856-1735-128 (Najla)</p>
           </div>
         </div>
       </div>

@@ -21,14 +21,16 @@ export default function Home() {
               Tetap rasakan kemeriahan Dies Natalis SMA Negeri 1 Kauman yang ke
               31 ditengah pandemi COVID-19 dengan berbasis online!
             </p>
-            <Link href="/tentang">
-                  <a
-                    href="/tentang"
-                    className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
-                  >
-                    Pelajari Selengkapnya!
-                  </a>
-                </Link>
+            <div className="mt-6">
+              <Link href="/tentang">
+                <a
+                  href="/tentang"
+                  className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+                >
+                  Pelajari Selengkapnya!
+                </a>
+              </Link>
+            </div>
           </div>
           <HeroIllustration className="hidden md:block" />
         </section>

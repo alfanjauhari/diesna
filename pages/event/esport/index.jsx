@@ -1,26 +1,28 @@
-import { Wrapper, Icon } from '../../../comps';
+import { Wrapper } from '../../../comps';
 import Image from 'next/image';
 import { NextSeo } from 'next-seo';
-import Link from 'next/link';
 
 export default function Esport() {
   return (
     <Wrapper>
       <NextSeo title="Kompetisi E-Sport" />
       <h1 className="text-3xl text-blue-900 font-bold">Kompetisi E-Sport</h1>
-      <div className="flex flex-col-reverse md:flex-row items-start relative">
-        <div className="bg-white shadow-xl rounded-xl p-6 md:p-8 w-full md:w-3/5 mt-8 md:mt-0">
-          <div className="w-full">
-            <Image
-              width={1100}
-              height={800}
-              src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
-              className="object-cover rounded-xl"
-            />
-          </div>
-          <h2 className="text-gray-900 font-bold text-2xl mt-8 mb-4">
-            Detail Event
-          </h2>
+      <div className="bg-white shadow-xl rounded-xl w-full mt-8">
+        <div
+          className="relative w-full"
+          style={{
+            height: '480px',
+          }}
+        >
+          <Image
+            layout="fill"
+            src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+            className="rounded-tl-xl rounded-tr-xl absolute"
+            objectFit="cover"
+          />
+        </div>
+        <div className="p-4 md:p-6">
+          <h2 className="text-gray-900 font-bold text-2xl">Detail Event</h2>
           <p className="text-gray-500 mt-4">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -61,30 +63,21 @@ export default function Esport() {
             </p>
           </p>
         </div>
-        <div className="md:sticky md:top-0 bg-white shadow-xl rounded-xl p-6 md:p-8 w-full md:w-2/5 md:ml-8 mt-8 md:mt-0">
-          <h2 className="text-gray-900 font-bold text-2xl mb-4">Informasi</h2>
-          <div className="flex items-center">
-            <Icon name="place" className="text-gray-500" />
-            <p className="text-gray-500 ml-2">Online</p>
-          </div>
-          <div className="flex items-center mt-4">
-            <Icon name="time" className="text-gray-500" />
-            <p className="text-gray-500 ml-2">14 Januari 2021</p>
-          </div>
-          <div className="flex items-center mt-4">
-            <Icon className="text-gray-500" />
-            <p className="text-gray-500 ml-2">Rp. 50.000,00</p>
-          </div>
-          <div className="mt-8 w-full">
-            <Link href="/event/esport/register" passHref>
-              <a
-                href="/event/esport/register"
-                className="block w-full mt-8 text-center py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
-              >
-                Daftar Sekarang!
-              </a>
-            </Link>
-          </div>
+        <div className="flex items-center w-full p-4 md:p-6">
+          <a
+            href="https://forms.gle/vLPVkrQxB72pHEdF8"
+            className="w-full p-4 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+            target="_blank"
+          >
+            Daftar E-Sport PUBG
+          </a>
+          <a
+            href="https://forms.gle/2nxKmcgemmJxbb8t7"
+            className="w-full ml-2 p-4 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+            target="_blank"
+          >
+            Daftar E-Sport Mobile Legends
+          </a>
         </div>
       </div>
     </Wrapper>

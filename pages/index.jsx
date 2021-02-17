@@ -106,12 +106,14 @@ export default function Home() {
                 terbaikmu.
               </p>
               <div className="mt-6" data-aos="fade-left" data-aos-delay="200">
-                <a
-                  href="#"
-                  className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
-                >
-                  Pelajari Selengkapnya!
-                </a>
+                <Link href="/event/fotografi">
+                  <a
+                    href="/event/fotografi"
+                    className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+                  >
+                    Pelajari Selengkapnya!
+                  </a>
+                </Link>
               </div>
             </div>
             <div
@@ -153,12 +155,14 @@ export default function Home() {
                 dan lainnya.
               </p>
               <div className="mt-6" data-aos="fade-right" data-aos-delay="200">
-                <a
-                  href="#"
-                  className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
-                >
-                  Pelajari Selengkapnya!
-                </a>
+                <Link href="/event/solo-vokal">
+                  <a
+                    href="/event/solo-vokal"
+                    className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+                  >
+                    Pelajari Selengkapnya!
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="w-full lg:w-7/12 lg:ml-8" data-aos="fade-left">
@@ -197,12 +201,14 @@ export default function Home() {
                 benar di perlombaan ini.
               </p>
               <div className="my-6" data-aos="fade-left" data-aos-delay="100">
-                <a
-                  href="#"
-                  className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
-                >
-                  Pelajari Selengkapnya!
-                </a>
+                <Link href="/event/story-telling">
+                  <a
+                    href="/event/story-telling"
+                    className="px-8 py-3 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
+                  >
+                    Pelajari Selengkapnya!
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="w-full lg:w-7/12 lg:mr-8" data-aos="fade-right">

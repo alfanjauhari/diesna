@@ -11,11 +11,15 @@ export default function Navbar() {
   return (
     <nav className="block md:flex px-6 md:px-12 lg:px-24 py-6 bg-white justify-between items-center shadow-lg">
       <div className="flex justify-between items-center">
-        <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-900 font-bold text-xl">
-          Dies Natalis 2021
-        </h1>
+        <Link href="/" passHref>
+          <a className="text-blue-600 hover:text-blue-800 duration-200">
+            <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-900 font-bold text-xl">
+              Dies Natalis 2021
+            </h1>
+          </a>
+        </Link>
         <button
-          className="p-2 rounded bg-gray-300 flex md:hidden shadow-lg focus:outline-none focus:ring-2"
+          className="p-2 rounded bg-gray-200 flex md:hidden shadow-lg focus:outline-none focus:ring-2"
           onClick={openMenu}
         >
           {isMenuOpen ? (
@@ -71,7 +75,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="mt-4 md:mt-0">
-          <Link href="/contact" passHref>
+          <Link href="/kontak" passHref>
             <a className="text-blue-600 hover:text-blue-800 duration-200">
               Kontak
             </a>

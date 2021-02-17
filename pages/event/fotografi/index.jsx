@@ -2,11 +2,11 @@ import { Wrapper } from '../../../comps';
 import Image from 'next/image';
 import { NextSeo } from 'next-seo';
 
-export default function StoryTelling() {
+export default function Fotografi() {
   return (
     <Wrapper>
-      <NextSeo title="Lomba Story Telling" />
-      <h1 className="text-3xl text-blue-900 font-bold">Lomba Story Telling</h1>
+      <NextSeo title="Lomba Fotografi" />
+      <h1 className="text-3xl text-blue-900 font-bold">Lomba Fotografi</h1>
       <div className="bg-white shadow-xl rounded-xl w-full mt-8">
         <div
           className="relative w-full"
@@ -16,7 +16,7 @@ export default function StoryTelling() {
         >
           <Image
             layout="fill"
-            src="https://images.unsplash.com/photo-1549055244-3ba3f5a6e252"
+            src="https://images.unsplash.com/photo-1565584268553-8b0bb5838bee"
             className="rounded-tl-xl rounded-tr-xl absolute"
             objectFit="cover"
           />
@@ -67,11 +67,11 @@ export default function StoryTelling() {
         </div>
         <div className="flex w-full p-4 md:p-6">
           <a
-            href="https://forms.gle/azbBoxMCFhpzHDUV8"
+            href="https://forms.gle/L34n22ufmR5HKSk39"
             className="w-full p-4 bg-blue-900 rounded text-white hover:bg-blue-800 duration-300"
             target="_blank"
           >
-            Daftar Lomba Story Telling
+            Daftar Lomba Fotografi
           </a>
         </div>
       </div>

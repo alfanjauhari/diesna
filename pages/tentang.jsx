@@ -1,5 +1,6 @@
 import { Wrapper } from '../comps';
 import { NextSeo } from 'next-seo';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -7,8 +8,17 @@ export default function About() {
       <NextSeo title="Tentang" />
       <h1 className="text-3xl text-blue-900 font-bold">Tentang Dies Natalis</h1>
       <div className="bg-white shadow-xl rounded-xl w-full mt-8">
-        <div className="p-4 md:p-6">
+        <div className="px-2 py-4 md:p-6">
           <div className="prose">
+            <p>
+              <Image
+                src="/pamflet.png"
+                width={3754}
+                height={5487}
+                quality={50}
+                loading="eager"
+              />
+            </p>
             <p>
               🏫 SMANSAKA PROUDLY PRESENT 🏫 DIESNATALIS SMANSAKA ARE BACK✨
               Dengan mengusung tema FUN ART,tahun ini kita akan memeriahkan hari
@@ -38,7 +48,9 @@ export default function About() {
             </p>
             <p>
               Info lebih lanjut : 🔸️{' '}
-              <a href="http://diesna.vercel.app">http://diesna.vercel.app</a>{' '}
+              <a href="http://diesna.vercel.app">
+                http://diesna-smansaka.vercel.app
+              </a>{' '}
               🔸️{' '}
             </p>
             <p className="font-semibold">Contact Person :</p>

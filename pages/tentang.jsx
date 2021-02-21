@@ -48,7 +48,7 @@ export default function About() {
             </p>
             <p>
               Info lebih lanjut : 🔸️{' '}
-              <a href="http://diesna.vercel.app">
+              <a href="http://diesna-smansaka.vercel.app">
                 http://diesna-smansaka.vercel.app
               </a>{' '}
               🔸️{' '}

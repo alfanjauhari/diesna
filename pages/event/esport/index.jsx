@@ -23,45 +23,55 @@ export default function Esport() {
         </div>
         <div className="p-4 md:p-6">
           <h2 className="text-gray-900 font-bold text-2xl">Detail Event</h2>
-          <p className="text-gray-500 mt-4">
+          <div className="prose mt-4">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequatur ducimus iste ex deleniti voluptas ad iusto ab
-              temporibus? Obcaecati porro eos ipsam impedit libero. Dolores
-              ducimus illo nostrum voluptate id. Non tenetur libero accusamus
-              maxime labore ut facere, error aliquid molestias modi rerum
-              tempore sed, adipisci doloremque, aperiam eveniet? Distinctio
-              maiores rem repellendus aliquid ratione vel sit quod porro
-              veritatis.
-            </p>{' '}
-            <p className="mt-4">
-              A, est facilis alias sequi, cum doloribus consectetur debitis
-              saepe perspiciatis soluta quia veniam? Ipsum, aliquid tempore
-              voluptatum omnis, deleniti nostrum soluta iste veniam quasi magni
-              quam reprehenderit? Debitis, eveniet! Quos obcaecati officiis,
-              repudiandae ipsam dolorum delectus voluptatem pariatur adipisci
-              quis incidunt quas et aliquid architecto iste. Earum harum amet
-              blanditiis quidem repellendus, libero aut et labore deserunt,
-              quibusdam obcaecati? Nihil repudiandae et iure eum beatae, nisi
-              quo, placeat rem voluptatum obcaecati non commodi magnam est in
-              porro ipsum, nemo reprehenderit quia architecto aliquam nesciunt
-              blanditiis ipsam fuga eos.
+              Olá Gamer&#39;s! SMANSAKA ada kabar gembira nih buat kalian yang
+              hobi banget isi waktu luang dengan nge games,tapi cuma dianggep
+              sebelah mata aja. Pas banget nih! Kali ini DIESNATALIS SMANSAKA
+              mengadakan ajang E-Sport yang meliputi PUBG dan Mobile Legends
+              loh! Yuk ikutan dan buktikan kalo ngegames juga bisa jadi landasan
+              berprestasi dengan cara yang tidak biasa!{' '}
             </p>
-            <p className="mt-4">
-              Nesciunt! Nostrum suscipit assumenda quod exercitationem minima
-              voluptatum nobis rerum ipsam qui debitis eius vitae harum
-              accusamus eveniet eos dolore tenetur, dolor vero velit culpa
-              explicabo hic praesentium maiores? Qui, reiciendis? At expedita
-              ad, assumenda, autem voluptatibus tenetur reiciendis alias
-              perspiciatis quisquam, vero placeat ut minus neque. Sequi,
-              aspernatur dolor sunt consequuntur delectus, porro facilis facere
-              modi labore nihil nam perspiciatis. Praesentium aperiam eligendi
-              beatae cumque ut consequatur repudiandae totam corrupti? Obcaecati
-              voluptatem alias velit id porro explicabo accusamus assumenda
-              animi quos nihil atque sequi, beatae incidunt quae? Laboriosam,
-              provident quidem.
+            <p className="font-semibold">PERATURAN KHUSUS PESERTA</p>
+            <ol>
+              <li>Merupakan siswa dan siswi SMAN 1 Kauman;</li>
+              <li>
+                Peserta merupakan siswa dan siswi kelas X dan XI. (Kelas XII
+                tidak diwajibkan ikut)
+              </li>
+              <li>
+                Peserta wajib mengisi formulir pendaftaran melalui website yang
+                telah disediakan oleh panitia;
+              </li>
+              <li>
+                Peserta harus melengkapi syarat-syarat pendaftaran yang sudah
+                ditentukan panitia. Jika terjadi penguduran diri, maka biaya
+                pendaftaran tidak dapat dikembalikan;{' '}
+              </li>
+            </ol>
+            <p className="font-semibold">FORCE MAJEUR</p>
+            <p>
+              Segala sesuatu yang terjadi di luar kehendak manusia, yaitu sakit,
+              kecelakaan, meninggal, dan bencana alam. Panitia berhak menilai
+              sepenuhnya pengguna alasan force majeur.{' '}
             </p>
-          </p>
+            <p className="font-semibold">ATURAN TAMBAHAN</p>
+            <ol>
+              <li>
+                Peraturan dapat berubah apabila terjadi force majeur dan atau
+                kebutuhan panitia. Perubahan peraturan hanya boleh dilakukan
+                oleh panitia dan akan disosialisasikan kepada peserta;
+              </li>
+              <li>
+                Tiap-tiap pasal dalam peraturan diatas diartikan menurut
+                persepsi panitia.
+              </li>
+            </ol>
+            <p className="font-semibold text-red-600">
+              Detail tentang peraturan teknis dan tata cara perlombaan E-Sport
+              akan diumumkan pada saat Technical Meeting berlangsung!
+            </p>
+          </div>
         </div>
         <div className="flex items-center w-full p-4 md:p-6">
           <a
